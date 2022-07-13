@@ -327,7 +327,7 @@ let help = Object.values(global.plugins).filter(plugin => !plugin.disabled).map(
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs`, `.lst all`,m)
+  await conn.sendTBI2(m.chat, text.trim(), wm,thumburl,`sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ `, `https://github.com`, `ᴏᴡɴᴇʀ`, `${_p}owner`, `ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ`, `.lst all`,m)
  
 }catch(e){
   conn.reply(m.chat,`${e}`)
