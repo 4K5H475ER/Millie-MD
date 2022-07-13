@@ -19,7 +19,7 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium user
 
 global.devx = 'false'
 
-global.owner = ["918113921898"]
+global.owner = ["18078086864"]
 global.APIs = { // API Prefix
 //======= name: 'https://website' ========//
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -43,22 +43,22 @@ global.APIKeys = { // APIKey Here
 
  
 global.ucpn = ''
-global.linkgc = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
-global.linkig = 'https://www.instagram.com/neer_j_  '
-global.linkyt = 'https://www.youtube.com/channel/UCLegt7MKqNBxJjIkE_QNPdA'
-global.linkfb = 'https://fb.watch/aYv0jAffAO'
-global.git = 'https://github.com/Neeraj-x0'
-global.web1 = 'https://neeraj-x0.github.io/'
-global.url = 'https://chat.whatsapp.com/HZ4c5yrsd0g8OfELZGySFZ'
+global.linkgc = 'https://chat.whatsapp.com/Idb23y8zNaGIOIfbRUBnm6'
+global.linkig = 'https://instagram.com/__akshay__ganz__?igshid=YmMyMTA2M2Y='
+global.linkyt = ''
+global.linkfb = 'https://www.facebook.com/akshay.monu.923'
+global.git = 'https://github.com/4K5H475ER'
+global.web1 = 'https://github.com/4K5H475ER'
+global.url = 'https://chat.whatsapp.com/Idb23y8zNaGIOIfbRUBnm6'
 
 //HEROKU  VARS
 global.thumburl = process.env.IMAGE || 'https://i.pinimg.com/474x/de/bd/b2/debdb24645169bf95eecd49f3144315f.jpg'
-global.packname = process.env.PACKNAME ||'ᴍɪʟʟɪᴇ-ᴍᴅ'
-global.author = process.env.AUTHOR ||'ɴᴇᴇʀᴀᴊ-x0'
+global.packname = process.env.PACKNAME ||'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ'
+global.author = process.env.AUTHOR ||'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ'
 global.name = 'Millie MULTI-DEVICE'
 global.session = process.env.SESSION_ID|| ''
-global.wm = process.env.WATERMARK|| 'ᴍɪʟʟɪᴇ-ᴍᴅ'
-global.owner_name = process.env.OWNER_NAME || 'Neeraj-x0'
+global.wm = process.env.WATERMARK|| 'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ'
+global.owner_name = process.env.OWNER_NAME || 'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ'
 global.logsmsg = convertToBool(process.env.LOGS)|| false
 
 function convertToBool(text, fault = 'true') {
@@ -71,7 +71,7 @@ function convertToBool(text, fault = 'true') {
 
 global.deslink = ''
 global.titlink = 'Folllow me on Instagram'
-global.bodlink = 'neer_j_'
+global.bodlink = 'ᴹᴿ᭄ᴛͦɪᷫsᷫᴜͥᴅͨᴇͥᴍᷧᴏᷝɴོ'
 global.wait = '_Please Wait_'
 global.eror = '_Something went wrong please try again later_'
 global.dtu = 'BOT HELP GROUP'
